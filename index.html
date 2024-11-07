@@ -1,21 +1,26 @@
 <html>
-
+<title>Fast...</title>
+<link rel="stylesheet" href="/mnt/StorageDrive/Projects/TempConverter/index.css"/>
 <script src="/mnt/StorageDrive/Projects/TempConverter/index.js"></script>
 
 <body>
+  <div id="container">
+    <div class="title">
+        <h2> Temperature Converter </h2>
+    </div>
+    
+     <h3 id="wrn"></h3>
+     <br/>
+    <input id="tmp" type="text"  placeholder="Enter Temperature here" />
 
-    <h2> Temperature Converter </h2>
-
-    <input id="tmp" type="text" value="10" placeholder="Enter Temperature here" />
-
-    <label for="temp">From</label>
+    <label for="temp"><b>From</b></label>
     <select name="temp" id="from">
         <option value="c">Celsius</option>
         <option value="k">Kelvin</option>
         <option value="f">Fahrenheit</option>
     </select>
 
-    <label for="temp1">To</label>
+    <label for="temp1"><b>To</b></label>
     <select name="temp1" id="to">
         <option value="c">Celsius</option>
         <option value="k">Kelvin</option>
@@ -24,8 +29,11 @@
 
     <button id="convert" onclick="calculate()">Convert</button>
 
-    <p id="res">Your answer is <b id="rr"></b></p>
+    <p id="res"><b id="ff"></b is ><b id="rr"></b></p>
+  
 
+  </div>
+    
 </body>
 
 </html>
